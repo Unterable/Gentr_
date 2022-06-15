@@ -38,12 +38,12 @@ class ListViewWidget extends StatelessWidget {
                 'https://pps.whatsapp.net/v/t61.24694-24/102752586_300455284308633_412660927002318082_n.jpg?ccb=11-4&oh=01_AVyYW8ZTx1lQNewY4OotzrBHzB2pLdv-tQpunxGEKwyiUw&oe=62B5699A',
             urLinkedin: 'https://lattes.cnpq.br/6986438491496935'),
         ListTileWidget(
-            typeImage: 'LI',
+            typeImage: 'LA',
             title: 'Yoji Massago',
             subtitle: 'Docente EBTT IFMT',
             urlImage:
                 'https://pps.whatsapp.net/v/t61.24694-24/287615624_201082858908182_2851988399003640577_n.jpg?ccb=11-4&oh=01_AVxzm6UBV6EI9coWbU0IXrkRgIs9AknSdrfs8c7F3cyd9A&oe=62B51DAD',
-            urLinkedin: 'https://www.linkedin.com/in/yoji-massago-42745a77'),
+            urLinkedin: 'https://lattes.cnpq.br/9137805402174351'),
         ListTileWidget(
             typeImage: 'LI',
             title: 'Michel Ferracini',
