@@ -253,23 +253,25 @@ class _LoginState extends State<Login> {
                       }
                     },
                     child: AnimatedBuilder(
-                        animation: loading,
-                        builder: (context, _) {
-                          return loading.value
-                              ? const SizedBox(
-                                  width: 20,
-                                  height: 20,
-                                  child: CircularProgressIndicator(
-                                    backgroundColor: Colors.red,
-                                  ),
-                                )
-                              : const Text(
-                                  "Entrar",
-                                  style: TextStyle(
-                                    fontSize: 20,
-                                  ),
-                                );
-                        }),
+                      animation: loading,
+                      builder: (context, _) {
+                        return loading.value
+                            ? const SizedBox(
+                                width: 20,
+                                height: 20,
+                                child: CircularProgressIndicator(
+                                  backgroundColor:
+                                      Color.fromARGB(255, 222, 105, 66),
+                                ),
+                              )
+                            : const Text(
+                                "Entrar",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                ),
+                              );
+                      },
+                    ),
                   ),
                 ),
                 Container(
