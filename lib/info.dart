@@ -181,7 +181,7 @@ void mensagem(String msg, context) {
         content: Text(
           msg,
           style: const TextStyle(
-            fontSize: 25.0,
+            fontSize: 20.0,
             fontWeight: FontWeight.w500,
             color: Colors.black,
           ),
@@ -191,7 +191,7 @@ void mensagem(String msg, context) {
             child: const Text(
               'Fechar',
               style: TextStyle(
-                fontSize: 25.0,
+                fontSize: 20.0,
                 fontWeight: FontWeight.w500,
               ),
             ),

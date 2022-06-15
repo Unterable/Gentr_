@@ -50,7 +50,7 @@ class _LoginState extends State<Login> {
           trailing: GestureDetector(
             child: const Icon(
               Icons.info_outline,
-              size: 30,
+              size: 25,
               color: Colors.white,
             ),
             onTap: () {
@@ -85,7 +85,7 @@ class _LoginState extends State<Login> {
               'Login',
               textAlign: TextAlign.center,
               style: TextStyle(
-                fontSize: 30,
+                fontSize: 25,
                 color: Colors.black,
               ),
             ),
@@ -94,11 +94,11 @@ class _LoginState extends State<Login> {
               child: TextField(
                 controller: siape,
                 keyboardType: TextInputType.number,
-                style: const TextStyle(fontSize: 22),
+                style: const TextStyle(fontSize: 20),
                 decoration: const InputDecoration(
                   labelText: 'Siape',
                   labelStyle: TextStyle(
-                    fontSize: 22,
+                    fontSize: 20,
                     color: Color.fromARGB(255, 222, 105, 66),
                   ),
                   focusedBorder: UnderlineInputBorder(
@@ -115,7 +115,7 @@ class _LoginState extends State<Login> {
                   ),
                   icon: Icon(
                     Icons.people,
-                    size: 25,
+                    size: 20,
                   ),
                 ),
               ),
@@ -126,11 +126,11 @@ class _LoginState extends State<Login> {
                 controller: senha,
                 obscureText: true,
                 obscuringCharacter: '*',
-                style: const TextStyle(fontSize: 22),
+                style: const TextStyle(fontSize: 20),
                 decoration: const InputDecoration(
                   labelText: 'Senha',
                   labelStyle: TextStyle(
-                    fontSize: 22,
+                    fontSize: 20,
                     color: Color.fromARGB(255, 222, 105, 66),
                   ),
                   focusedBorder: UnderlineInputBorder(
@@ -308,7 +308,7 @@ class _LoginState extends State<Login> {
           content: Text(
             msg,
             style: const TextStyle(
-              fontSize: 25.0,
+              fontSize: 20.0,
               fontWeight: FontWeight.w500,
               color: Colors.black,
             ),
@@ -318,7 +318,7 @@ class _LoginState extends State<Login> {
               child: const Text(
                 'Fechar',
                 style: TextStyle(
-                  fontSize: 25.0,
+                  fontSize: 20.0,
                   fontWeight: FontWeight.w500,
                 ),
               ),
