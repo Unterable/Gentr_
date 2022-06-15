@@ -21,8 +21,8 @@ class _CheckState extends State<Check> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Gentr',
-          style: TextStyle(fontSize: 30),
+          'Gerenciador de Entregas',
+          style: TextStyle(fontSize: 20),
         ),
         automaticallyImplyLeading: false,
       ),
@@ -47,7 +47,7 @@ class _CheckState extends State<Check> {
               'Código de Confirmação',
               textAlign: TextAlign.center,
               style: TextStyle(
-                fontSize: 30,
+                fontSize: 20,
                 color: Colors.black,
               ),
             ),
@@ -56,11 +56,11 @@ class _CheckState extends State<Check> {
               child: TextField(
                 controller: code,
                 keyboardType: TextInputType.number,
-                style: const TextStyle(fontSize: 22),
+                style: const TextStyle(fontSize: 20),
                 decoration: const InputDecoration(
                   labelText: 'Código',
                   labelStyle: TextStyle(
-                    fontSize: 22,
+                    fontSize: 20,
                     color: Color.fromARGB(255, 222, 105, 66),
                   ),
                   focusedBorder: UnderlineInputBorder(
@@ -75,7 +75,7 @@ class _CheckState extends State<Check> {
                   )),
                   icon: Icon(
                     Icons.people,
-                    size: 25,
+                    size: 20,
                   ),
                 ),
               ),
@@ -127,7 +127,7 @@ class _CheckState extends State<Check> {
                         animation: loading,
                         builder: (context, _) {
                           return loading.value
-                              ? SizedBox(
+                              ? const SizedBox(
                                   width: 20,
                                   height: 20,
                                   child: CircularProgressIndicator(
@@ -136,7 +136,7 @@ class _CheckState extends State<Check> {
                               : const Text(
                                   "Enviar",
                                   style: TextStyle(
-                                    fontSize: 22,
+                                    fontSize: 20,
                                   ),
                                 );
                         }),
@@ -166,7 +166,7 @@ class _CheckState extends State<Check> {
           content: Text(
             msg,
             style: const TextStyle(
-              fontSize: 25.0,
+              fontSize: 20.0,
               fontWeight: FontWeight.w500,
               color: Colors.black,
             ),

@@ -35,14 +35,14 @@ class _YearsState extends State<Years> {
         appBar: AppBar(
           title: Text(
             'Prof. ' + widget.nomeProf,
-            style: const TextStyle(fontSize: 25),
+            style: const TextStyle(fontSize: 20),
           ),
           automaticallyImplyLeading: false,
         ),
         body: const Center(
           child: Text(
             'Não há registros.',
-            style: TextStyle(fontSize: 25),
+            style: TextStyle(fontSize: 20),
           ),
         ),
         floatingActionButton: FloatingActionButton(
@@ -58,7 +58,7 @@ class _YearsState extends State<Years> {
         appBar: AppBar(
           title: Text(
             'Prof. ' + widget.nomeProf,
-            style: const TextStyle(fontSize: 25),
+            style: const TextStyle(fontSize: 20),
           ),
           automaticallyImplyLeading: false,
         ),
@@ -91,7 +91,7 @@ class _YearsState extends State<Years> {
             title: Text(
               widget.anosCad[index].toString(),
               style: const TextStyle(
-                fontSize: 25,
+                fontSize: 20,
                 color: Colors.black,
               ),
             ),
@@ -123,7 +123,7 @@ class _YearsState extends State<Years> {
           title: Text(
             tipoDoc[indice],
             style: const TextStyle(
-              fontSize: 22,
+              fontSize: 20,
               color: Colors.black,
             ),
           ),
@@ -140,7 +140,7 @@ class _YearsState extends State<Years> {
                         )
                       : const Icon(
                           Icons.remove_red_eye,
-                          size: 22,
+                          size: 25,
                           color: Color.fromARGB(255, 222, 105, 66),
                         );
                 }),
@@ -211,7 +211,7 @@ class _YearsState extends State<Years> {
           content: Text(
             msg,
             style: const TextStyle(
-              fontSize: 25.0,
+              fontSize: 20.0,
               fontWeight: FontWeight.w500,
               color: Colors.black,
             ),
@@ -221,7 +221,7 @@ class _YearsState extends State<Years> {
               child: const Text(
                 'Fechar',
                 style: TextStyle(
-                  fontSize: 25.0,
+                  fontSize: 20.0,
                   fontWeight: FontWeight.w500,
                 ),
               ),

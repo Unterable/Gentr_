@@ -85,7 +85,7 @@ class _LoginState extends State<Login> {
               'Login',
               textAlign: TextAlign.center,
               style: TextStyle(
-                fontSize: 25,
+                fontSize: 20,
                 color: Colors.black,
               ),
             ),
@@ -147,7 +147,7 @@ class _LoginState extends State<Login> {
                   ),
                   icon: Icon(
                     Icons.password,
-                    size: 25,
+                    size: 20,
                   ),
                 ),
               ),
@@ -266,7 +266,7 @@ class _LoginState extends State<Login> {
                               : const Text(
                                   "Entrar",
                                   style: TextStyle(
-                                    fontSize: 22,
+                                    fontSize: 20,
                                   ),
                                 );
                         }),

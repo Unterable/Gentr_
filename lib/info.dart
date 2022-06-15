@@ -156,9 +156,9 @@ class ListTileWidget extends StatelessWidget {
       ),
       title: Text(
         title,
-        style: const TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+        style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
       ),
-      subtitle: Text(subtitle, style: const TextStyle(fontSize: 15.0)),
+      subtitle: Text(subtitle, style: const TextStyle(fontSize: 18.0)),
       trailing: Image.asset("img/" + typeImage + ".png"),
       //trailing: const Icon(FontAwesomeIcons.linkedin, color: Colors.indigo, size: 30,),
       onTap: () {

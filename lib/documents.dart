@@ -25,14 +25,14 @@ class _DocumentsState extends State<Documents> {
         appBar: AppBar(
           title: Text(
             widget.tipoDocumento + " - " + widget.anoPesquisado,
-            style: const TextStyle(fontSize: 25),
+            style: const TextStyle(fontSize: 20),
           ),
           automaticallyImplyLeading: false,
         ),
         body: const Center(
           child: Text(
             'Não há registros.',
-            style: TextStyle(fontSize: 25),
+            style: TextStyle(fontSize: 20),
           ),
         ),
         floatingActionButton: FloatingActionButton(
@@ -48,7 +48,7 @@ class _DocumentsState extends State<Documents> {
         appBar: AppBar(
           title: Text(
             widget.tipoDocumento + " - " + widget.anoPesquisado,
-            style: const TextStyle(fontSize: 25),
+            style: const TextStyle(fontSize: 20),
           ),
           automaticallyImplyLeading: false,
         ),
@@ -74,7 +74,7 @@ class _DocumentsState extends State<Documents> {
             title: Text(
               lista[index]['descricao'],
               style: const TextStyle(
-                fontSize: 22,
+                fontSize: 20,
                 color: Colors.black,
               ),
             ),
@@ -109,7 +109,7 @@ class _DocumentsState extends State<Documents> {
           content: Text(
             $msg,
             style: const TextStyle(
-              fontSize: 25.0,
+              fontSize: 20.0,
               fontWeight: FontWeight.w500,
               color: Colors.black,
             ),
@@ -119,7 +119,7 @@ class _DocumentsState extends State<Documents> {
               child: const Text(
                 'Fechar',
                 style: TextStyle(
-                  fontSize: 25.0,
+                  fontSize: 20.0,
                   fontWeight: FontWeight.w500,
                 ),
               ),
