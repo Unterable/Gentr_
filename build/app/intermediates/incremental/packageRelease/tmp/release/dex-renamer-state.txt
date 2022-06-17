@@ -1,4 +1,0 @@
-#Wed Jun 15 22:04:09 AMT 2022
-base.0=/home/michel/Documentos/tads/tads_5sem/desenvolvimento_mobile/Gentr_/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
