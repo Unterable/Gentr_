@@ -32,18 +32,18 @@ class ListViewWidget extends StatelessWidget {
       children: ListTile.divideTiles(context: context, tiles: const [
         ListTileWidget(
             typeImage: 'LA',
-            title: 'Claudemir Públio Júnior',
-            subtitle: 'Docente EBTT IFMT',
-            urlImage:
-            'CLA',
-            urLinkedin: 'https://lattes.cnpq.br/6986438491496935'),
-        ListTileWidget(
-            typeImage: 'LA',
             title: 'Yoji Massago',
             subtitle: 'Docente EBTT IFMT',
             urlImage:
             'YOJ',
             urLinkedin: 'https://lattes.cnpq.br/9137805402174351'),
+        ListTileWidget(
+            typeImage: 'LA',
+            title: 'Claudemir Públio Júnior',
+            subtitle: 'Docente EBTT IFMT',
+            urlImage:
+            'CLA',
+            urLinkedin: 'https://lattes.cnpq.br/6986438491496935'),
         ListTileWidget(
             typeImage: 'LI',
             title: 'Michel Ferracini',
@@ -77,25 +77,11 @@ class ListViewWidget extends StatelessWidget {
             'https://www.linkedin.com/in/danilo-batista-8679b516a/'),
         ListTileWidget(
             typeImage: 'LI',
-            title: 'João Kleber Alves Neto',
-            subtitle: 'Discente CSTADS',
-            urlImage:
-            'JKB',
-            urLinkedin: 'linkedin.com/in/joão-kleber-a-neto-422420242'),
-        ListTileWidget(
-            typeImage: 'LI',
             title: 'Jucelio da Silva Santos',
             subtitle: 'Discente CSTADS',
             urlImage:
             'JUC',
             urLinkedin: 'https://www.linkedin.com/in/juceliodigital/'),
-        ListTileWidget(
-            typeImage: 'LI',
-            title: 'Matheus Augusto dos Santos Santana',
-            subtitle: 'Discente CSTADS',
-            urlImage:
-            'MAT',
-            urLinkedin: 'https://www.linkedin.com/in/matheus-augusto-96141b242'),
         ListTileWidget(
             typeImage: 'LI',
             title: 'Miqueias Cardoso Soares',
@@ -104,29 +90,6 @@ class ListViewWidget extends StatelessWidget {
             'MIQ',
             urLinkedin:
             'https://www.linkedin.com/in/miqueias-cardoso-soares-507222224'),
-        ListTileWidget(
-            typeImage: 'LI',
-            title: 'Priscila da Silva Batista',
-            subtitle: 'Discente CSTADS',
-            urlImage:
-            'PRI',
-            urLinkedin:
-            'https://www.linkedin.com/in/priscila-batista-972b72186'),
-        ListTileWidget(
-            typeImage: 'LI',
-            title: 'Wagner Daniel Macedo Delmondes',
-            subtitle: 'Discente CSTADS',
-            urlImage:
-            'WGN',
-            urLinkedin: 'https://www.linkedin.com/in/wagnerdelmondes'),
-        ListTileWidget(
-            typeImage: 'LI',
-            title: 'Wanderson Renato Moraes da Silva',
-            subtitle: 'Discente CSTADS',
-            urlImage:
-            'WAN',
-            urLinkedin:
-            'https://www.linkedin.com/in/wanderson-renato-moraes-da-silva-b49681239/'),
       ]).toList(),
     );
   }
